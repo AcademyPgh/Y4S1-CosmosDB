@@ -1,6 +1,8 @@
-export default config = {
-    host: "",
-    authKey = "",
-    databaseId = "",
-    collectionId = ""
-}
+const config = {}
+
+config.host = "";
+config.authKey = "";
+config.databaseId = "";
+config.collectionId = "";
+
+module.exports = config;
